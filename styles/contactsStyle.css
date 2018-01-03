@@ -1,0 +1,117 @@
+.contactsForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* feedback form */
+.feedback_form {
+    width: 300px;
+    min-width: 300px;
+    
+    border-radius: 10px;
+    border: solid #ffdaad;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    
+    color: #6C8CD5;
+    font: 18px "Calibri", "Arial", sans-serif;
+}
+
+.feedback_form_flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 60%;
+}
+
+.feedback_form div {
+    margin: 10px 0;
+}
+
+.feedback_form input,
+textarea {
+    color: #484343;
+    font: 18px "Calibri", "Arial", sans-serif;
+    width: 100%;
+    line-height: 22px;
+}
+
+.feedback_form textarea {
+    width: calc(100% - 2px);
+}
+
+.feedback_form input[type="reset"],
+input[type="submit"] {
+    width: calc(100% + 4px);
+}
+
+.feedback_form input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: beige;
+}
+
+.feedback_form input[name="first_name"],
+input[name="second_name"] {
+    text-transform: capitalize;
+}
+
+.feedback_form input,
+textarea {
+    color: #707070;
+}
+
+.feedback_form input[type="email"] {
+    color: darkorange;
+}
+
+/* address form */
+.address_form {
+    width: 100%;
+    
+    border-radius: 10px;
+    border: solid #ffdaad;
+    border-top-width: 3px;
+    border-right-style: hidden;
+    border-bottom-width: 3px;
+    border-left-style: hidden;
+
+    color: #6C8CD5;
+    font: 18px "Calibri", "Arial", sans-serif;
+}
+
+.address_flex_container {
+    width: 100%;
+    min-width: 750px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.address_flex_box {
+    width: 25%;
+    text-align: center;
+}
+
+.address_flex_box sup {
+    letter-spacing: 1px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+.address_form div {
+    color: #707070;
+    font: 16px "Calibri", "Arial", sans-serif;
+    margin: 15px 0;
+}
+
+.address_form a {
+    color: darkorange;
+    font: bold 16px "Calibri", "Arial", sans-serif;
+    text-decoration: none;
+    line-height: 25px;
+}

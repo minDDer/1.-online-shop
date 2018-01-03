@@ -1,0 +1,68 @@
+/* catalog page */
+
+.catalogs_header {
+    color: #6C8CD5;
+    font: bold 16px "Calibri", "Arial", sans-serif;
+    line-height: 30px;
+    border-left: 5px solid darkorange;
+    padding-left: 10px;
+}
+
+/* new layout */
+.product_catalog_array {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.product_catalog_item {
+    text-align: center;
+    
+    width: 280px;
+    height: 130px;
+    float: left;
+    border-bottom: 5px solid darkorange;
+    margin: 0 30px 30px 0;
+}
+
+.product_catalog_item span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #06266F;
+    font: bold 20px "Calibri", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
+.product_catalog_item img {
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+}
+
+.product_catalog_item a {
+    width: 180px;
+    position: relative;
+    top: 65px;
+    float: right;
+    color: #06266F;
+    font: 18px "Calibri", "Arial", sans-serif;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.product_catalog_item a:hover {
+    background-color: darkorange;
+}
+
+.product_catalog_item:hover {
+    background-color: beige;
+    /*    text-shadow: 0 0 7px;*/
+    border-bottom: 5px solid #06266F;
+}
+
+.product_catalog_item:hover span {
+    background-color: darkorange;
+}
