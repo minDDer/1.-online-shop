@@ -1,2 +1,2 @@
 # 1.-online-shop
-This is very first educational project. HTML and CSS have been used.
+This is the very first educational project. HTML and CSS have been used.
